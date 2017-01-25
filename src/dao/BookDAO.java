@@ -15,6 +15,8 @@ public class BookDAO {
 		books.put("ASP经典模块开发大全", 69);
 		books.put("ASP.NET 3.5网络数据库开发实例自学手册", 79);
 		books.put("XML开发典型应用", 65);
+		books.put("JAVA自学", 100);
+		books.put("JAVA 20 天", 600);
 	}
 	//根据书名进行模糊查询，返回用于保存查询结果的Map对象
 	public Map<String,Integer> getBooks(String name){

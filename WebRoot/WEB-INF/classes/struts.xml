@@ -10,4 +10,13 @@
           <result name="error">/error.jsp</result>
        </action>
     </package>
+    <package name="parentns" extends="struts-default">
+      <action name="parent" class="parentns.ParentAction"/>
+    </package>
+    <package name="childns" extends="struts-default">
+       <action name="child" class="childns.ChildAction">
+          <result name="success">/success.jsp</result>
+          <result name="error">/error.jsp</result>
+       </action>
+    </package>
 </struts>
